@@ -4,7 +4,7 @@ import math
 
 def quadratic(a, b, c):
     """计算将洒江辣酱辣酱啦"""
-    if a == 0:
+    if a == 0 and b!=0:
         x = -c / b
         print("OMG! The answer is %f" % (x))
     elif a == 0 and b == 0 and c != 0:
@@ -21,9 +21,11 @@ def quadratic(a, b, c):
             print("something is wrong!")
         # return x1, x2
 
-a=float(input("get a:"));
-b=float(input("get b:"));
-c=float(input("get c:"));
+# a=float(input("get a:"));
+# b=float(input("get b:"));
+# c=float(input("get c:"));
 
 
-print(quadratic(a, b, c))
+# print(quadratic(a, b, c))
+print(quadratic(0, 0, 0))
+
